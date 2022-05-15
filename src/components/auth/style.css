@@ -1,0 +1,268 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+
+*{
+
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: "Poppins",sans-serif;
+outline:none !important;
+text-decoration: none !important;
+}
+
+.body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #ebecf0;
+}
+
+.container {
+    background: #ebecf0;
+    width:500px;
+    height:auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: inset 4px 4px 10px #babecc, inset -10px -10px 20px #fff;
+    border-radius:30px;
+}
+::placeholder{
+    text-align: center;
+}
+
+div, p{
+    color: #babecc;
+    text-shadow: 1px 1px 1px #fff; 
+}
+
+h1{
+    color: #555;
+}
+p{
+    text-align: center;
+    margin-top:20px;
+    font-weight: 800;
+    font-size: 16px;
+}
+.login-form{
+    width: 350px;
+    height:600px;
+}
+
+.form-title{
+    text-align: center;
+    padding: 25px 0;
+}
+
+label{
+    display: block;
+    margin-bottom:24px;
+    width: 100%;
+}
+
+input{
+    margin-right: 8px;
+    box-shadow: inset 2px 2px 5px #babecc, inset -5px -5px 10px #fff;
+    width: 100%;
+    transition: all 0.2s ease-in-out;
+    outline:none;
+    -webkit-appearance: none;
+}
+
+button, input{
+    border: none;
+    outline:none;
+    font-size:16px;
+    border-radius:320px;
+    padding:16px;
+    background: #ebecf0;
+    text-shadow: 1px 1px 1px 0 #fff;
+    text-align: center;
+}
+
+input:focus{
+    box-shadow: inset 1px 1px 2px #cfcfcf , inset -1px -1px 2px #fff ;
+}
+
+button{
+    color: #61677c;
+    font-weight: bold;
+    box-shadow: -5px -5px 20px #fff, 5px 5px 20px #babecc ;
+    transition:all 0.2s ease-in-out;
+    cursor: pointer;
+    font-weight: 600;
+    
+}
+
+ .red .fa{
+margin-right: 15px;
+} 
+
+.blue .fa{
+    margin-right: 15px;
+    } 
+
+button:hover{
+    box-shadow:  -2px -2px 5px #fff,  2px 2px 5px #babecc;
+}
+button:active{
+    box-shadow: inset -2px -2px 5px #fff, inset 2px 2px 5px #babecc;
+}
+
+
+.red{
+    display: block;
+    width: 100%;
+    color:#ae1100;
+    font-weight: 700;
+    
+}
+
+.blue{
+    display: block;
+    width: 100%;
+    color:#34b7f1;
+    font-weight: 700;
+}
+
+
+.social-media{
+    padding: 25px 0;
+    text-align: center;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+
+.social-media .social-icons{
+border-radius: 8px;
+line-height: 0;
+display: inline-flex;
+justify-content:center ;
+align-items:center;
+margin: 0 8px;
+font-size:18px;
+}
+
+.social-media button:nth-child(1){
+    color: #1877f2;
+    
+}
+.social-media button:nth-child(2){
+    color: #333;
+    font-size: 20px;
+}
+/* .social-media button:nth-child(3){
+    color:  #e4405f;
+} */
+.social-media button:nth-child(3){
+    color:#ae1100;
+}
+
+.remember-me{
+    display: flex;
+    align-items:center;
+    padding-bottom: 20px;
+}
+
+/* .input-checkbox{
+    display: active;
+} */
+
+/* .label-checkbox{
+    margin-bottom: 10px;
+    display: block;
+    position: relative;
+    padding-left: 26px;
+    cursor: pointer;
+} */
+
+/* .label-checkbox::before{
+    font-family: FontAwesome;
+    content:"\f00c";
+    font-size:13px;
+    color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 0;
+    top:50%;
+    transform: translate(0,-50%);
+    width:16px;
+    height:16px;
+    border-radius:2px;
+    background:#e6e6e6;
+} */
+/* 
+.input-checkbox:checked + .label-checkbox::before{
+    color: #c87ef0;
+}
+
+ .txt1{
+    font-size:15px;
+    color: #a28080;
+ } */
+
+#btn{
+    margin-bottom: 50px;
+}
+
+
+.add{
+    position:fixed;
+    font-size: 25px;
+    bottom:80px;
+    right:80px;
+  }
+  
+  .add i{
+    color:#00bb2d ;
+  }
+
+  .sale{
+      bottom:80px;
+      right:10px;
+  }
+
+ .delete{
+     font-size:25px;
+     position:fixed;
+     bottom:80px;
+     left: 100px;
+ }
+ .delete i{
+     color:#ae1100;
+ }
+
+ .home{
+     border-radius: 20px;
+     width:60px;
+     height:60px;
+     position:fixed;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     top:  30px;
+     left:10px;
+ }
+
+ .home i{
+ color: #61677c;
+ }
+
+ .edit{
+    color : #f1c !important;
+  }
+  
+.before{
+   
+bottom:180px;
+  }
+
+  .before i{
+    color: #00bb2d !important;
+  }

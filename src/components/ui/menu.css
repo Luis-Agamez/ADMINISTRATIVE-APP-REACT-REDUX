@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+
+/* *{
+
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Poppins',sans-serif;
+
+} */
+
+/* body{
+
+    display:flex;
+    align-items:center;
+    min-height:100vh;
+    background:#6843d1;
+
+} */
+
+.conteiner{
+    position: fixed;
+    top: 115px;
+    left: 4px;
+   
+}
+
+.conteiner .navigation {
+
+  position: relative;
+  width: 75px;
+  height: 500px;
+  background: #f1f1f1;
+border-radius:10px;
+overflow: hidden;
+box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+transition: 0.5s;
+}
+
+.conteiner .navigation ul{
+
+    position:absolute;
+    top:90px;
+    left:0;
+    width:100%;
+
+}
+.conteiner .navigation ul li{
+     position: relative;
+    list-style: none;
+    width:100%;
+
+}
+.conteiner .navigation ul li:hover{
+     cursor: pointer;
+    background: #d6d5d5;
+}
+
+.conteiner .navigation ul li .a{
+    position: relative;
+    display: block;
+    width: 100%;
+   display: flex;
+    text-decoration: none;
+   color: #61677c;
+   font-weight: 500;
+}
+.conteiner .navigation ul li .a .icon{
+
+    position: relative;
+    display:block;
+    min-width: 80px;
+    height:60px;
+    line-height: 60px;
+    text-align: center;
+}
+
+.conteiner .navigation ul li .a .icon .fa{
+
+    font-size:24px;
+}
+.conteiner .navigation ul li .a  .title{
+  position: relative;
+  display: block;
+  height:60px;
+  line-height: 55px;
+  white-space: nowrap;
+
+}
+
+.toggle{
+    position: absolute;
+    right:-20px;
+    top:calc(50% - 20px);
+    width: 40px;
+    height: 40px;
+    background: #f5f5f5;
+    cursor: pointer;
+    border: 5px solid #61677c;
+    border-radius:50%;
+
+}
+
+.toggle::before{
+
+content:'\f054';
+font-family: fontawesome;
+position:absolute;
+width: 100%;
+height: 100%;
+line-height: 30px;
+text-align: center;
+font-size: 16px;
+color: #61677c;
+}
+
+.toggle.active::before{
+    content:'\f053';
+font-family: fontawesome;
+}
+.conteiner .navigation.active{
+    width: 300px;
+    opacity: .9;
+}
